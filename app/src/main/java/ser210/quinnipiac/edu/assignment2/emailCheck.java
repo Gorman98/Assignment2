@@ -18,10 +18,10 @@ import java.net.URL;
  */
 
 public class emailCheck extends AsyncTask<String, String, String> {
-    private MainActivity main;
+    private MainFragment main;
     private String json;
 
-    public emailCheck(MainActivity main) throws JSONException {
+    public emailCheck(MainFragment main) throws JSONException {
         this.main = main;
         json = null;
     }

@@ -25,8 +25,13 @@
         </activity>
         <activity
             android:name=".checkActivity"
-            android:label="@string/title_activity_check"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:label="@string/title_activity_check" />
+        <activity
+            android:name=".settingsActivity"
+            android:label="@string/title_activity_settings"></activity>
+        <activity
+            android:name=".FavoriteActivity"
+            android:label="@string/title_activity_favorite"></activity>
     </application>
 
 </manifest>

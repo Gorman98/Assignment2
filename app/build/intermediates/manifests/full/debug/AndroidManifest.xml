@@ -33,8 +33,13 @@
         </activity>
         <activity
             android:name="ser210.quinnipiac.edu.assignment2.checkActivity"
-            android:label="@string/title_activity_check"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:label="@string/title_activity_check" />
+        <activity
+            android:name="ser210.quinnipiac.edu.assignment2.settingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name="ser210.quinnipiac.edu.assignment2.FavoriteActivity"
+            android:label="@string/title_activity_favorite" />
 
         <meta-data
             android:name="android.support.VERSION"
